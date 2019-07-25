@@ -33,8 +33,8 @@ class TodoComponent extends React.Component<IProps, IState> {
     return (
       todos.map((todo, i) => {
         return (
-          <ul>
-            <li key={i}>{todo}</li>
+          <ul key={i}>
+            <li>{todo}</li>
           </ul>
         );
       }) 
